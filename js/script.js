@@ -142,6 +142,16 @@ function updateTaskDisplay() {
 
 		// --- update backgroundcolor by importance
 		changeBackgroundColor(task.importance, i);
+
+		const deleteButton = document.getElementsByClassName("btn-danger");
+		console.log(deleteButton);
+		for (let i = 0; i < deleteButton.length; i++) {
+			let button = deleteButton[i];
+			button.addEventListener("click", function (event) {
+				let buttonClicked = event.target;
+				buttonClicked.parentElement.parentElement.remove();
+			});
+		}
 	}
 }
 
