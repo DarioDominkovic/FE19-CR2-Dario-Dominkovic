@@ -47,7 +47,7 @@ let tasks = [
 		name: "Read Book",
 		image: "images/readbook.jpg",
 
-		description: "Continue reading the book on your nightstand",
+		description: "Reading the book on your bedside table",
 		importance: 0,
 		duration: 60,
 	},
@@ -160,13 +160,32 @@ function changeBackgroundColor(importance, index) {
 	}
 }
 
-// event listener to the sort button
+// event listener to the sort button down
 const sortButtondown = document.getElementById("sort-buttondown");
 sortButtondown.addEventListener("click", sortByImportancedown);
 
-// event listener to the sort button
+// event listener to the sort button up
 const sortButtonup = document.getElementById("sort-buttonup");
 sortButtonup.addEventListener("click", sortByImportanceup);
 
 // update the display of tasks
 updateTaskDisplay();
+
+//----------------------------------------
+// so much to do --- so many notifications
+//----------------------------------------
+
+const numberElement = document.getElementById("badge");
+
+let number = 0;
+
+function incrementNumber() {
+	number++;
+	numberElement.textContent = number;
+}
+
+function getRandomInterval() {
+	return Math.floor(Math.random() * 4000) + 1000;
+}
+
+setInterval(incrementNumber, getRandomInterval());
