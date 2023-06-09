@@ -18,7 +18,7 @@
 
 		<!-- bootstrap link -->
 		<link
-			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+			href="https://cdn.jsdelivr.net/npm/bootstra// Generates a random number between 1000 and 5000 milliseconds (1-5 seconds)p@5.3.0/dist/css/bootstrap.min.css"
 			rel="stylesheet"
 			integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
 			crossorigin="anonymous"
@@ -28,7 +28,7 @@
 	</head>
 	<body>
 		<header>
-			<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+			<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
 				<div class="container-fluid">
 					<a class="navbar-brand" href="#">My Planner</a>
 					<button
@@ -48,14 +48,16 @@
 								<a class="nav-link active" aria-current="page" href="#">Home</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#">Tasks</a>
+								<a class="nav-link" href="#weeklytasks">Tasks</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#">Settings</a>
+								<a class="nav-link" href="#socialmedia">Footer</a>
 							</li>
 						</ul>
 						<span class="navbar-icon">
-							<i class="fa-regular fa-bell"></i>
+							<i class="fa-solid fa-bell">
+								<span class="badge" id="badge">0</span>
+							</i>
 						</span>
 					</div>
 				</div>
@@ -63,13 +65,13 @@
 		</header>
 
 		<main>
-			<div class="banner">
-				<div class="banner-img"></div>
-				<div class="banner-text">Weekly planner</div>
+			<div class="main-top" id="main-top">
+				<div class="top-img"></div>
+				<div class="top-text">Weekly planner</div>
 			</div>
 			<!-- --- main  -->
-			<div class="container mx-auto">
-				<div class="main-header">
+			<div class="container mx-auto" id="weeklytasks">
+				<div class="containerheader">
 					<h4>Weekly Tasks</h4>
 					<p>
 						Sort by priority:
@@ -89,7 +91,7 @@
 			</div>
 		</main>
 		<footer>
-			<div class="socialmedia">
+			<div class="socialmedia" id="socialmedia">
 				<a href="#facebook"
 					><i class="fa-brands fa-border fa-square-facebook"></i
 				></a>
