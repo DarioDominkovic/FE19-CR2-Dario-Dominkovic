@@ -89,7 +89,7 @@ footer .socialmedia a {
 	margin: 5px;
 }
 footer .socialmedia a:hover {
-	color: rgb(135, 207, 230);
+	color: rgba(255, 255, 255, 0.4);
 }
 footer .newsletter {
 	display: flex;
@@ -114,7 +114,7 @@ footer .newsletter button {
 }
 
 footer .newsletter button:hover {
-	color: rgb(135, 207, 230);
+	color: rgba(255, 255, 255, 0.4);
 }
 
 footer .copyright {

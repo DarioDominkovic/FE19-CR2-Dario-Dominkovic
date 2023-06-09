@@ -1,14 +1,14 @@
 let tasks = [
 	{
 		name: "Shopping",
-		image: "images/shopping.jpg",
+		image: "images/shopping2.jpg",
 		description: "Shop for weekly groceries at Spar and Hofer",
 		importance: 0,
 		duration: 20,
 	},
 	{
 		name: "Read Book",
-		image: "images/readbook.jpg",
+		image: "images/readbook2.jpg",
 
 		description: "Continue reading the book on your nightstand",
 		importance: 0,
@@ -23,7 +23,7 @@ let tasks = [
 	},
 	{
 		name: "Clean up the apartment ",
-		image: "images/cleaning.jpg",
+		image: "images/cleaning2.jpg",
 		description: "Start the weekly cleaning of the apartment",
 		importance: 0,
 		duration: 30,
@@ -60,7 +60,7 @@ let tasks = [
 	},
 	{
 		name: "Shopping",
-		image: "images/shopping.jpg",
+		image: "images/shopping2.jpg",
 		description: "Shop for weekly groceries at Spar and Hofer",
 		importance: 0,
 		duration: 20,
