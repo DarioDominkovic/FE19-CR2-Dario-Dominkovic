@@ -183,7 +183,6 @@ updateTaskDisplay();
 
 //----------------------------------------
 // so much to do --- so many notifications
-//----------------------------------------
 
 const numberElement = document.getElementById("badge");
 

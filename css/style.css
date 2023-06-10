@@ -24,6 +24,7 @@ header i {
 	transform: translate(-50%, -50%);
 	text-align: center;
 }
+
 .navbar-icon {
 	margin-right: 40px;
 	color: white;
@@ -37,25 +38,24 @@ header i {
 	color: white;
 }
 
-.container .containerheader {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-}
-
-.container .containerheader button {
-	margin-left: 10px;
-	padding: 5px;
-}
-
 .container {
 	display: grid;
 	gap: 10px;
 	margin: 50px;
 }
+.container .containerheader {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.container .containerheader button {
+	margin-left: 10px;
+	padding: 5px;
+}
 .container img {
 	padding: 20px;
 	aspect-ratio: 3/2;
+	-o-object-fit: contain;
 	object-fit: contain;
 }
 .container .card-header {
@@ -65,7 +65,6 @@ header i {
 	justify-content: space-between;
 	align-items: center;
 }
-
 .container .card-header .right .fa-regular {
 	margin-right: 10px;
 }
@@ -100,11 +99,9 @@ footer .newsletter {
 	padding-top: 20px;
 	padding-bottom: 40px;
 }
-
 footer .newsletter label {
 	margin-right: 20px;
 }
-
 footer .newsletter button {
 	font-size: 15px;
 	padding: 5px;
@@ -112,11 +109,9 @@ footer .newsletter button {
 	background-color: black;
 	color: white;
 }
-
 footer .newsletter button:hover {
 	color: rgba(255, 255, 255, 0.4);
 }
-
 footer .copyright {
 	display: flex;
 	justify-content: center;
@@ -127,4 +122,4 @@ footer .copyright {
 footer .copyright p {
 	font-size: 15px;
 	color: white;
-}
+} /*# sourceMappingURL=style.css.map */
